@@ -1,13 +1,16 @@
 import MovieCard from "./MovieCard";
 import { useSelector } from "react-redux";
-
+import Shimmer from "./Shimmer";
 const Recommendation=()=>{
     const movies=useSelector(store=>store.movies.GPT_movies)
+    
+      
+    
    
     return (   
-                <div className="w-10/12 mx-auto opacity-85">
+                <div className="w-10/12 mx-auto">
 
-            {movies  &&<h3 className='text-xl text-white ml-2 mt-2 capitalize font-bold'>Recommendation</h3>}
+            
 
                     <div className='flex flex-wrap mt-4'>
 

@@ -1,4 +1,4 @@
-const shimmer=()=>{
+const Shimmer=()=>{
     return (
        <div className="flex flex-wrap">
            <div className="bg-gray-400 w-[100px] h-[100px]"></div>
@@ -10,4 +10,4 @@ const shimmer=()=>{
        </div>
     )
 }
-export default shimmer
+export default Shimmer

@@ -12,8 +12,8 @@ const MovieCard = ({ data }) => {
     }
     return (
         <div className='sm:w-48 w-36 mr-3 cursor-pointer  p-2' onClick={handle_movie_datail}>
-            <img src={poster + data?.poster_path} alt={data?.original_title} className="contrast-125"/>
-            <div className='text-white font-bold relative  '>{data?.title}</div>
+            <img src={poster + data?.poster_path} alt={data?.original_title} className="contrast-100  hover:contrast-125"/>
+            <div className='text-white font-bold relative '>{data?.title}</div>
 
         </div>
     )

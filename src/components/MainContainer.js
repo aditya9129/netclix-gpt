@@ -16,10 +16,3 @@ const MainContainer=()=>{
     )
 }
 export default MainContainer;
-{/*
-
-video background 
-some button 
-trailer of 1st movie in array
-
-*/}

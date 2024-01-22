@@ -43,10 +43,8 @@ const Header=()=>{
      
    }
    
-   ///subscribing to the store
     const user=useSelector(store=>store.user);
     const GPT=useSelector(store=>store.GPT.gpt);
-   /// console.log(user);
     const navigate=useNavigate();
     const handleclick=()=>{
    //on signout navigate to login page
@@ -64,24 +62,7 @@ const Header=()=>{
   
  
     return (
-    //  <div className="p-2 fixed z-10 bg-black w-full flex justify-between text-white">
-    //   <img src={Logo} alt="logo" className="w-36"></img>
-    //   {user && <div className="flex">
-    //   <button onClick={handleGPT} className="text-white bg-blue-400 m-2 p-2 rounded-lg  z-100 cursor-pointer">GPT Search</button>
-    //   <button onClick={handleclick} className="text-white bg-red-600 m-2 p-2 rounded-lg  cursor-pointer">Sign Out</button>
-    //  {GPT &&  <button onClick={handleHome} className="text-white bg-red-600 m-2 p-2 rounded-lg  cursor-pointer">Home</button> }
-    //  {GPT &&  <select
-    //     onChange={handleSelectChange} className="text-white bg-red-600 m-2 p-2 rounded-lg  cursor-pointer">
-    //       <option value="en">English</option>
-    //       <option value="hindi">Hindi</option>
-    //       <option value="spainish">spainish</option>
-        
-    //     </select>
-    //   }
-      
-    //   </div>
-    //   }
-    //  </div>
+    
     <div className="p-2 fixed z-10 bg-black w-full flex flex-col sm:flex-row items-center justify-between text-white">
 
     {/* Logo centered for small devices */}

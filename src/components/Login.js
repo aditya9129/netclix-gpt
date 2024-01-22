@@ -9,7 +9,7 @@ const Login=()=>{
     const email=useRef();
     const pass=useRef();
     const [errormsg,seterrormsg]=useState("");
-    const [isSignIn,setisSignIn]=useState(true);
+    const [isSignIn,setisSignIn]=useState(false);
     const toggleSign=()=>{
         setisSignIn(!isSignIn);
     }
@@ -25,7 +25,7 @@ const Login=()=>{
        createUserWithEmailAndPassword(auth, email.current.value, pass.current.value)
        .then((userCredential) => {
         // Signed up 
-        ///////const user = userCredential.user;
+    
         //console.log(userCredential);
         // ...
         navigate("/browse")
@@ -43,7 +43,7 @@ const Login=()=>{
         signInWithEmailAndPassword(auth, email.current.value, pass.current.value)
         .then((userCredential) => {
           // Signed in 
-      ///////////////////  /*  const user = userCredential.user;*/////////
+     
         //  console.log(userCredential);
           // ...
           navigate("/browse")

@@ -10,9 +10,7 @@ const MovieContainer=()=>{
     const bool_movie_detail=useSelector(store=>store.moviecard.view_movie_card);
     
     return (
-        // <div className=" bg-black">
-
-
+        
         <div className="mt-[65%] mx-10 pb-4 bg-black sm:mt-[53%] sm:ml-2">
          
          <MovieList movies={upcoming} />   
