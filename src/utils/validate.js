@@ -8,5 +8,5 @@ export const validate =(email,pass)=>{
     if(!Vpass){
         return "Pass is Not valid";
     }
-
+return null
 }

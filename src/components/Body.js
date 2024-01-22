@@ -4,6 +4,7 @@ import Browse from "./Browse";
 import { RouterProvider } from "react-router-dom";
 
 const Body=()=>{
+
     const approuter=createBrowserRouter([
 
         {
