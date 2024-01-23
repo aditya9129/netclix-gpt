@@ -13,7 +13,10 @@
     - Search Bar
     - Movie Suggestions
 
-
+#Preview
+![image](https://github.com/aditya9129/netfix-gpt/assets/108227507/6445bb74-fd20-4257-bf27-0b7a78c0f99a)
+![image](https://github.com/aditya9129/netfix-gpt/assets/108227507/c31e842e-d431-4abf-92d4-4ea53c81cf56)
+![image](https://github.com/aditya9129/netfix-gpt/assets/108227507/841ccf6e-650f-4845-8b61-1a1a1140b463)
 
 # Project Setup
 - Before starting the project please add .env file and add TMDB and OPENAI KEY into it.
